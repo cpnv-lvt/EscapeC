@@ -22,7 +22,7 @@ int main() {
     printf("*************************************************************************************************\n\n\n");
 
     // Il faudrait demander a l'utilisateur l'anne de naissance de Monsieur Viret mais je ne sais plus comment faire...
-    
+
 
     // Validation du nombre
     if(nombre == 1989) {
