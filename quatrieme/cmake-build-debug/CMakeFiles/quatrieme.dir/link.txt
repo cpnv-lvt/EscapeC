@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\quatrieme.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\quatrieme.dir/objects.a @CMakeFiles\quatrieme.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\quatrieme.dir/objects.a -Wl,--no-whole-archive  -o quatrieme.exe -Wl,--out-implib,libquatrieme.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\quatrieme.dir\linklibs.rsp

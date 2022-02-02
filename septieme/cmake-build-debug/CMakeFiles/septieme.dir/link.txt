@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\septieme.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\septieme.dir/objects.a @CMakeFiles\septieme.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\septieme.dir/objects.a -Wl,--no-whole-archive  -o septieme.exe -Wl,--out-implib,libseptieme.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\septieme.dir\linklibs.rsp
